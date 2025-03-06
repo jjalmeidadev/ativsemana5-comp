@@ -209,6 +209,23 @@ function somaArray(numeros) {
 }
 console.log(somaArray([1, 2, 3, 4]));
 ```
+
+**RESPOSTA**
+```javascript
+// Declara uma variável global e a inicializa com 0 (a fim de garantir a soma de todo o array mais para frente).
+var soma = 0;
+
+// Define uma função que recebe dois parâmetros: 'numeros' (um array) e 'soma' (um valor inicial para a soma), garantindo o registro de ambos ao longo do processo.
+function somaArray(numeros, dobro) {
+  for (i = 0; i < numeros.length; i++) {
+    // Adiciona o valor do elemento atual à 'soma' e multiplica o resultado por 2, atribuindo o valor ao 'dobro', utilizando parênteses a fim de garantir que a multiplicação englobe todos os elementos somados.
+    dobro = 2 * (soma += numeros[i]);
+  }
+  return dobro;
+}
+
+console.log(somaArray([1, 2, 3, 4]));
+```
 ______
 10) Crie um exemplo prático no qual você tenha duas classes:
 
@@ -216,3 +233,29 @@ ______
 - Uma classe `Livro` que herda de `Produto` e modifica o método `calcularDesconto()`, aplicando um desconto de 20% no preço dos livros.
 
 Explique como funciona a herança nesse contexto e como você implementaria a modificação do método na classe `Livro`.
+
+**RESPOSTA**
+```javascript
+// Cria uma classe chamada Produto com os atributos nome e preco, e um método chamado calcularDesconto que retorna o valor do desconto de 10% do preço
+class Produto {
+  constructor(nome, preco) {
+    this.nome = 'nome';
+    this.preco = 0;
+  }
+    calcularDesconto() {
+      return this.preco - this.preco * 0.1;
+    }
+}
+//Utiliza a propriedade extends para criar uma classe chamada Livro que herda de Produto, utilizando o super para chamar os atributos do construtor da classe pai
+class Livro extends Produto {
+  constructor(nome, preco) {
+    super(nome, preco);
+    this.nome = 'livro';
+    this.preco = 12;
+  }
+    //O método é alterado a partir da modificação do valor do decimal de 0.1 para 0.2
+    calcularDesconto() {
+      return this.preco - this.preco * 0.2;
+    }
+}
+```

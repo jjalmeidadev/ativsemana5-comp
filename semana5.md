@@ -103,7 +103,8 @@ b) 6
 
 c) 18
 
-d) 24
+d) 24 **X = A alternativa correta é a D, pois o código passa pela a etapa de multiplicar todos os valores do array "numeros" por 2, considerar somente os valores que após a 
+multiplicação são maiores que 5 (6, 8 e 10), e a etapa de somá-los (24).**
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -117,7 +118,8 @@ a) ["banana", "maçã", "uva", "abacaxi", "manga", "laranja"]
 
 b) ["banana", "abacaxi", "manga"]
 
-c) ["banana", "abacaxi", "manga", "laranja"]
+c) ["banana", "abacaxi", "manga", "laranja"] **X = A alternativa C é a correta, pois o comando lista.splice altera os valores interiores do array "lista", substituindo o segundo 
+e terceiro valor (começando do 0) para "abacaxi" e "manga" respectivamente.**
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 ______
@@ -127,7 +129,7 @@ I. A herança é utilizada para compartilhar métodos e propriedades entre class
 II. Em JavaScript, a herança é implementada através da palavra-chave `extends`.
 
 
-a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
+a) As duas afirmações são verdadeiras, e a segunda justifica a primeira. **X = A alternativa A é a correta, pois ambas as afirmações são verdadeiras, com a segunda demonstrando de que maneira a repetição de código citada na primeira é evitada através do método de herança "extends", com este ocorrendo através da estrutura "class extends (nome da classe mãe){}.**
 
 b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeira.
 
@@ -169,7 +171,7 @@ III) O código não funciona corretamente, pois Funcionario não pode herdar de 
 
 Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
-a) I e II são verdadeiras.
+a) I e II são verdadeiras. **X = A alternativa correta é a A, pois a classe "Funcionario", criada após a classe "Pessoa", utiliza-se do método "extends" para utilizar os atributos da classe mãe, de maneira que os nomes e idades disponíveis sejam considerados diretamente através do comando "super" dentro da função "constructor". O método apresentar() utiliza-se das determinações do método da classe pai utilizando super, porém sobrepõe tais elementos através da definição de um console.log diferente. A terceira afirmação é refutada a partir do momento que as duas anteriores são verdadeiras.**
 
 b) I, II e III são verdadeiras.
 
@@ -190,7 +192,7 @@ b) A asserção é verdadeira e a razão é falsa.
 
 c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explica a asserção.
 
-d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
+d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção. **X = A alternativa correta é a D, pois a asserção define o polimorfismo como dois objetos de classes e tipos diferentes que são capazes de exercer diferentes funções com métodos de mesma nomenclatura, com estes sendo descritos em maior detalhe pela afirmação da razão, a partir do momento em que no processo das criações das classes, métodos de mesmo nome podem possuir parâmetros e comandos variados.**
 
 ______
 

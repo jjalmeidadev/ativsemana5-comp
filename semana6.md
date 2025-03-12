@@ -171,7 +171,7 @@ III) O código não funciona corretamente, pois Funcionario não pode herdar de 
 
 Quais das seguintes afirmações são verdadeiras sobre o código acima?
 
-a) I e II são verdadeiras. **X = A alternativa correta é a A, pois a classe "Funcionario", criada após a classe "Pessoa", utiliza-se do método "extends" para utilizar os atributos da classe mãe, de maneira que os nomes e idades disponíveis sejam considerados diretamente através do comando "super" dentro da função "constructor". O método apresentar() utiliza-se das determinações do método da classe pai utilizando super, porém sobrepõe tais elementos através da definição de um console.log diferente. A terceira afirmação é refutada a partir do momento que as duas anteriores são verdadeiras.**
+a) I e II são verdadeiras. **X = A alternativa correta é a A, pois a classe "Funcionario", criada após a classe "Pessoa", utiliza-se do método "extends" para utilizar os atributos da classe pai, de maneira que os nomes e idades disponíveis sejam considerados diretamente através do comando "super" dentro da função "constructor". O método apresentar() utiliza-se das determinações do método da classe pai utilizando super, porém sobrepõe tais elementos através da definição de um console.log diferente. A terceira afirmação é refutada a partir do momento que as duas anteriores são verdadeiras.**
 
 b) I, II e III são verdadeiras.
 
